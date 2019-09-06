@@ -16,5 +16,5 @@ The code is currently only tested on GPU, but you can run it on CPU. Of course, 
      
 * **Source data sets**  
 
-     if you want to other data sets, please download to https://comunelab.fbk.eu/data.php.
+     If you want to other data sets, please download to https://comunelab.fbk.eu/data.php.
 
