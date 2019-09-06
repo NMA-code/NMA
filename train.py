@@ -28,7 +28,7 @@ parser.add_argument('--alpha', type=float, default=0.01, help='Alpha for the lea
 parser.add_argument('--batch', type=float, default=100, help='batch size.')
 parser.add_argument('--features_num', type=int, default=32, help='batch size.')
 parser.add_argument('--hop', default=1, type=int, help='enclosing subgraph hop number, options: 1, 2,..., ')
-parser.add_argument('--k_nums', type=int, default=10, help='k numbers of K-fold cross validation.')
+parser.add_argument('--k_nums', type=int, default=5, help='k numbers of K-fold cross validation.')
 parser.add_argument('--use_embedding', type=bool, default=False, help='whether to use node2vec node embeddings.')
 parser.add_argument('--patience', type=int, default=10, help='Patience')
 parser.add_argument('--max_train_num', type=int, default=20000, help='set maximum number of train (to fit into memory)')
@@ -147,11 +147,8 @@ def main():
     if len(node_information_) != 0:
         node_information = node_information_
 
-    '''Train and apply classifier'''
-    # A = layers_info[0][1].copy()  # the observed network
     layers_info[0][1][test_pos[0], test_pos[1]] = 0  # mask test links
     layers_info[0][1][test_pos[1], test_pos[0]] = 0  # mask test links
-    # layers_info[0][1] = A.copy()
 
     train_graphs, test_graphs = links2subgraphs(layers_info, train_pos, train_neg, test_pos, test_neg, args.hop,
                                                 args.max_nodes_per_hop, node_information=node_information)
