@@ -9,6 +9,11 @@ The code is currently only tested on GPU.
 * **Demo**  
 
      you can run '**python train.py**' to get the result of our demo. The Result store path is */data/CKM-Physicians-Innovation_Multiplex_Social/results/NMA-I_results.txt*.  
-     **Note that this is the result using the NMA-I method.**   
+     
+     **Note that this is the result using the NMA-I method.** 
+     
      if you want to test the NMA-N method, please run '**python train.py --use_embedding True**'. The Result store path is */data/CKM-Physicians-Innovation_Multiplex_Social/results/NMA-N_results.txt*.
+     
+* **Source data sets**  
+     if you want to other data sets, please download to ![baidu](https://comunelab.fbk.eu/data.php)
 
