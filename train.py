@@ -149,10 +149,6 @@ def main():
 
     layers_info[0][1][test_pos[0], test_pos[1]] = 0  # mask test links
     layers_info[0][1][test_pos[1], test_pos[0]] = 0  # mask test links
-<<<<<<< HEAD
-=======
-
->>>>>>> 5b3e8afb37c0ff1baf244475083421ef2fd834d9
 
     train_graphs, test_graphs = links2subgraphs(layers_info, train_pos, train_neg, test_pos, test_neg, args.hop,
                                                 args.max_nodes_per_hop, node_information=node_information)
