@@ -46,9 +46,6 @@ class GraphAttentionLayer(nn.Module):
 
 
 class GraphConvolution(nn.Module):
-    """
-    Simple GCN layer, similar to https://arxiv.org/abs/1609.02907
-    """
 
     def __init__(self, in_features, out_features, n_layers, bias=True):
         super(GraphConvolution, self).__init__()
@@ -63,10 +60,8 @@ class GraphConvolution(nn.Module):
         lv = 0
         cur_message_layer = input_feature
         while lv < self.n_layers:
-            n2npool = torch.matmul(adj, cur_message_layer)  # Y = (A + I) * X
-            cur_message_layer = torch.matmul(n2npool, self.W)  # Y = Y * W
-            # cur_message_layer = torch.cat((cur_message_layer, torch.tanh(node_linear)), dim=3)
+            n2npool = torch.matmul(adj, cur_message_layer) 
+            cur_message_layer = torch.matmul(n2npool, self.W) 
             lv += 1
-
         return cur_message_layer
 
