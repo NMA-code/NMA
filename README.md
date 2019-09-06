@@ -5,6 +5,7 @@ This is the source code for our paper '**Link Prediction with Multi-Stage Struct
    * Requirements 
      * pytorch>=1.0
      * python==3.6
+     
      After creating a virtual environment of python 3.6, run `pip install -r requirements.txt` to install all dependencies.
 ### How to use
 The code is currently only tested on GPU, but you can run it on CPU. Of course, you have to put up with its inefficiencies.
