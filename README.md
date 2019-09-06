@@ -2,7 +2,7 @@
 ### Introduction
 This is the source code for our paper '**Link Prediction with Multi-Stage Structural Attentions in Social Multiplex Networks**'.
 ### Installation  
-   * Requirements 
+   * **Requirements** 
      * pytorch>=1.0
      * python==3.6
      
