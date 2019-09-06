@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="84740949-47ab-42d9-9c2c-1c142bc5c630" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/attentionMultiplexGraphs$get_nodes.coverage" NAME="get_nodes Coverage Results" MODIFIED="1563325866167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/attentionMultiplexGraphs$create_data.coverage" NAME="create_data Coverage Results" MODIFIED="1563241693488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/attentionMultiplexGraphs$clean_data.coverage" NAME="clean_data Coverage Results" MODIFIED="1563280268493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/attentionMultiplexGraphs$isDataset.coverage" NAME="isDataset Coverage Results" MODIFIED="1563283108827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/attentionMultiplexGraphs_last$train.coverage" NAME="train Coverage Results" MODIFIED="1566649519568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/attentionMultiplexGraphs$utils.coverage" NAME="utils Coverage Results" MODIFIED="1563247913033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/attentionMultiplexGraphs_over$train.coverage" NAME="train Coverage Results" MODIFIED="1567056909279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/attentionMultiplexGraphs$load_function.coverage" NAME="load_function Coverage Results" MODIFIED="1563271980325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/attentionMultiplexGraphs$train.coverage" NAME="train Coverage Results" MODIFIED="1563423281869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NMA$train.coverage" NAME="train Coverage Results" MODIFIED="1567738184445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/attentionMultiplexGraphs_sub$train.coverage" NAME="train Coverage Results" MODIFIED="1564046589235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/attentionMultiplexGraphs_new$train.coverage" NAME="train Coverage Results" MODIFIED="1567736681091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/attentionMultiplexGraphs_change$train.coverage" NAME="train Coverage Results" MODIFIED="1566902937183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/attentionMultiplexGraphs_sub$models.coverage" NAME="models Coverage Results" MODIFIED="1563449950319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/load_function.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding>
+                <element signature="e#23#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+              <folding>
+                <element signature="e#23#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/load_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1647">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
+              <folding>
+                <element signature="e#23#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#23#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Main.py" />
+        <option value="$PROJECT_DIR$/data/Drosophila_Multiplex_Genetic/layer_2.txt" />
+        <option value="$PROJECT_DIR$/data/Drosophila_Multiplex_Genetic/layer_1.txt" />
+        <option value="$PROJECT_DIR$/data/Drosophila_Multiplex_Genetic/layer_3.txt" />
+        <option value="$PROJECT_DIR$/data/arXiv-Netscience_Multiplex_Coauthorship/layer_1.txt" />
+        <option value="$PROJECT_DIR$/data/arXiv-Netscience_Multiplex_Coauthorship/layer_3.txt" />
+        <option value="$PROJECT_DIR$/data/SacchCere_Multiplex_Genetic/layer_1.txt" />
+        <option value="$PROJECT_DIR$/data/create_data.py" />
+        <option value="$PROJECT_DIR$/data/utils.py" />
+        <option value="$PROJECT_DIR$/data/MoscowAthletics2013_Multiplex_Social/layer_2.txt" />
+        <option value="$PROJECT_DIR$/data/clean_data.py" />
+        <option value="$PROJECT_DIR$/isDataset.py" />
+        <option value="$PROJECT_DIR$/data/get_nodes.py" />
+        <option value="$PROJECT_DIR$/node2vec.py" />
+        <option value="$PROJECT_DIR$/data/Arabidopsis_Multiplex_Genetic/arabidopsis_genetic_multiplex.edges" />
+        <option value="$PROJECT_DIR$/data/NYClimateMarch2014_Multiplex_Social/edges.txt" />
+        <option value="$PROJECT_DIR$/train.sh" />
+        <option value="$PROJECT_DIR$/train.py" />
+        <option value="$PROJECT_DIR$/layers.py" />
+        <option value="$PROJECT_DIR$/load_data.py" />
+        <option value="$PROJECT_DIR$/models.py" />
+        <option value="$PROJECT_DIR$/load_function.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="44" />
+    <option name="width" value="1370" />
+    <option name="height" value="942" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NMA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NMA" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../attentionMultiplexGraphs_new" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.train">
+    <configuration name="clean_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="attentionMultiplexGraphs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/clean_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get_nodes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="attentionMultiplexGraphs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/get_nodes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="isDataset" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="attentionMultiplexGraphs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/isDataset.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="attentionMultiplexGraphs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="attentionMultiplexGraphs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.models" />
+        <item itemvalue="Python.get_nodes" />
+        <item itemvalue="Python.isDataset" />
+        <item itemvalue="Python.clean_data" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84740949-47ab-42d9-9c2c-1c142bc5c630" name="Default Changelist" comment="" />
+      <created>1562929819477</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562929819477</updated>
+      <workItem from="1562929820821" duration="21222000" />
+      <workItem from="1563062537960" duration="72728000" />
+      <workItem from="1563234170986" duration="55120000" />
+      <workItem from="1563431340339" duration="7616000" />
+      <workItem from="1563442658260" duration="7121000" />
+      <workItem from="1563503063643" duration="12605000" />
+      <workItem from="1564013606659" duration="20494000" />
+      <workItem from="1565223653992" duration="21000" />
+      <workItem from="1565225258150" duration="5914000" />
+      <workItem from="1565660011303" duration="3887000" />
+      <workItem from="1565700941018" duration="659000" />
+      <workItem from="1565744208070" duration="7168000" />
+      <workItem from="1565760768189" duration="65205000" />
+      <workItem from="1566103337752" duration="16606000" />
+      <workItem from="1566262769853" duration="17119000" />
+      <workItem from="1566519407263" duration="2762000" />
+      <workItem from="1566614247386" duration="1207000" />
+      <workItem from="1566625804162" duration="378000" />
+      <workItem from="1566647568199" duration="7586000" />
+      <workItem from="1566778061304" duration="12451000" />
+      <workItem from="1566827044537" duration="58000" />
+      <workItem from="1566832449314" duration="113000" />
+      <workItem from="1566864393861" duration="6142000" />
+      <workItem from="1566926991695" duration="290000" />
+      <workItem from="1566953361561" duration="391000" />
+      <workItem from="1566954211073" duration="1765000" />
+      <workItem from="1566961752614" duration="5586000" />
+      <workItem from="1566997388225" duration="1250000" />
+      <workItem from="1567040918030" duration="9218000" />
+      <workItem from="1567082437631" duration="799000" />
+      <workItem from="1567151129556" duration="644000" />
+      <workItem from="1567216633285" duration="621000" />
+      <workItem from="1567250844198" duration="635000" />
+      <workItem from="1567297359066" duration="902000" />
+      <workItem from="1567298380931" duration="15945000" />
+      <workItem from="1567343564618" duration="519000" />
+      <workItem from="1567382048039" duration="998000" />
+      <workItem from="1567383181005" duration="26955000" />
+      <workItem from="1567553333328" duration="5654000" />
+      <workItem from="1567639165197" duration="2561000" />
+      <workItem from="1567645687455" duration="4573000" />
+      <workItem from="1567677164150" duration="18000" />
+      <workItem from="1567736342744" duration="355000" />
+      <workItem from="1567737069239" duration="721000" />
+      <workItem from="1567738175959" duration="1601000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="426183000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="28" width="1920" height="1052" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18353067" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994618" visible="true" weight="0.30666667" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053823" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4994618" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/load_function.py</url>
+          <line>157</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/data/create_data.py" />
+    <entry file="file://$PROJECT_DIR$/data/SacchCere_Multiplex_Genetic/layer_5.txt" />
+    <entry file="file://$PROJECT_DIR$/data/SacchCere_Multiplex_Genetic/layer_2.txt" />
+    <entry file="file://$PROJECT_DIR$/data/NYClimateMarch2014_Multiplex_Social/layer_3.txt" />
+    <entry file="file://$PROJECT_DIR$/data/NYClimateMarch2014_Multiplex_Social/layer_2.txt" />
+    <entry file="file://$PROJECT_DIR$/data/utils.py" />
+    <entry file="file://$PROJECT_DIR$/data/MoscowAthletics2013_Multiplex_Social/MoscowAthletics2013_nodes.txt" />
+    <entry file="file://$PROJECT_DIR$/data/NYClimateMarch2014_Multiplex_Social/layer_1.txt" />
+    <entry file="file://$PROJECT_DIR$/data/layer_1.txt" />
+    <entry file="file://$PROJECT_DIR$/data/clean_data.py" />
+    <entry file="file://$PROJECT_DIR$/isDataset.py" />
+    <entry file="file://$PROJECT_DIR$/data/arXiv-Netscience_Multiplex_Coauthorship/备忘" />
+    <entry file="file://$PROJECT_DIR$/data/CKM-Physicians-Innovation_Multiplex_Social/layer_3.txt" />
+    <entry file="file://$PROJECT_DIR$/data/CKM-Physicians-Innovation_Multiplex_Social/layer_2.txt" />
+    <entry file="file://$PROJECT_DIR$/data/CKM-Physicians-Innovation_Multiplex_Social/layer_1.txt" />
+    <entry file="file://$PROJECT_DIR$/data/SacchCere_Multiplex_Genetic/文本文件" />
+    <entry file="file://$PROJECT_DIR$/data/get_nodes.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/networkx/convert_matrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2228">
+          <caret line="352" column="4" selection-start-line="352" selection-start-column="4" selection-end-line="352" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/torch/nn/modules/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="534" selection-start-line="534" selection-end-line="534" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/torch/__init__.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="1456" column="7" lean-forward="true" selection-start-line="1456" selection-start-column="7" selection-end-line="1456" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node2vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/CElegans_Multiplex_Neuronal/results/embedding_results_t.txt" />
+    <entry file="file://$PROJECT_DIR$/data/CKM-Physicians-Innovation_Multiplex_Social/results/no_embedding_results_nodd.txt" />
+    <entry file="file://$PROJECT_DIR$/data/arXiv-Netscience_Multiplex_Coauthorship/arxiv_netscience_layers.txt" />
+    <entry file="file://$PROJECT_DIR$/data/arXiv-Netscience_Multiplex_Coauthorship/arxiv_netscience_multiplex.edges" />
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/torch/nn/functional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="1370" selection-start-line="1370" selection-end-line="1370" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/Twitter/layer_1.txt" />
+    <entry file="file://$PROJECT_DIR$/data/SacchCere_Multiplex_Genetic/layer_4.txt" />
+    <entry file="file://$PROJECT_DIR$/data/SacchCere_Multiplex_Genetic/layer_3.txt" />
+    <entry file="file://$PROJECT_DIR$/data/SacchCere_Multiplex_Genetic/layer_1.txt" />
+    <entry file="file://$PROJECT_DIR$/data/Homo_Multiplex_Genetic/layer_2.txt" />
+    <entry file="file://$PROJECT_DIR$/data/Homo_Multiplex_Genetic/homo_genetic_multiplex.edges" />
+    <entry file="file://$PROJECT_DIR$/data/Homo_Multiplex_Genetic/文本文件" />
+    <entry file="file://$PROJECT_DIR$/data/Homo_Multiplex_Genetic/layer_3.txt" />
+    <entry file="file://$PROJECT_DIR$/data/Homo_Multiplex_Genetic/layer_1.txt" />
+    <entry file="file://$PROJECT_DIR$/data/MoscowAthletics2013_Multiplex_Social/layer_2.txt" />
+    <entry file="file://$PROJECT_DIR$/data/MoscowAthletics2013_Multiplex_Social/layer_1.txt" />
+    <entry file="file://$PROJECT_DIR$/data/MoscowAthletics2013_Multiplex_Social/layer_3.txt" />
+    <entry file="file://$PROJECT_DIR$/data/Arabidopsis_Multiplex_Genetic/arabidopsis_genetic_multiplex.edges" />
+    <entry file="file://$PROJECT_DIR$/data/Homo_Multiplex_Genetic/edges.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-834878" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/SacchCere_Multiplex_Genetic/edges.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1741313" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/MoscowAthletics2013_Multiplex_Social/edges.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-295868">
+          <caret line="29" column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/NYClimateMarch2014_Multiplex_Social/edges.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="100201" column="11" selection-start-line="100201" selection-start-column="11" selection-end-line="100201" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="e#23#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <folding>
+            <element signature="e#23#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/load_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1647">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="e#23#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#23#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/load_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
