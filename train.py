@@ -13,7 +13,7 @@ from load_data import load_data
 from models import NMA
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--data_name', default='CKM-Physicians-Innovation_Multiplex_Social', help='network name')
+parser.add_argument('--data_name', default='arXiv', help='network name')
 parser.add_argument('--no-cuda', action='store_true', default=False, help='Disables CUDA training.')
 parser.add_argument('--max_nodes_per_hop', type=int, default=25, help='max num of neighbors.')
 parser.add_argument('--seed', type=int, default=1, help='Random seed.')
@@ -26,11 +26,11 @@ parser.add_argument('--n_gcn', type=int, default=2, help='Number of gcn layers.'
 parser.add_argument('--dropout', type=float, default=0.5, help='Dropout rate (1 - keep probability).')
 parser.add_argument('--alpha', type=float, default=0.01, help='Alpha for the leaky_relu.')
 parser.add_argument('--batch', type=float, default=100, help='batch size.')
-parser.add_argument('--features_num', type=int, default=128, help='batch size.')
+parser.add_argument('--features_num', type=int, default=32, help='batch size.')
 parser.add_argument('--hop', default=1, type=int, help='enclosing subgraph hop number, options: 1, 2,..., ')
 parser.add_argument('--k_nums', type=int, default=10, help='k numbers of K-fold cross validation.')
 parser.add_argument('--use_embedding', type=bool, default=False, help='whether to use node2vec node embeddings.')
-parser.add_argument('--patience', type=int, default=20, help='Patience')
+parser.add_argument('--patience', type=int, default=10, help='Patience')
 parser.add_argument('--max_train_num', type=int, default=20000, help='set maximum number of train (to fit into memory)')
 
 args = parser.parse_args()
@@ -45,31 +45,9 @@ if args.cuda:
 '''Prepare data'''
 args.file_dir = os.path.dirname(os.path.realpath('__file__'))
 
-# Model and optimizer
-if args.use_embedding:
-    model = NMA(n_feat=args.features_num,
-                n_hid=args.hidden,
-                n_nums=args.max_nodes_per_hop,
-                dropout=args.dropout,
-                n_heads=args.nb_heads,
-                n_gcn=args.n_gcn,
-                alpha=args.alpha)
-else:
-    model = NMA(n_feat=args.max_nodes_per_hop,
-                n_hid=args.hidden,
-                n_nums=args.max_nodes_per_hop,
-                dropout=args.dropout,
-                n_heads=args.nb_heads,
-                n_gcn=args.n_gcn,
-                alpha=args.alpha)
-optimizer = optim.Adam(model.parameters(),
-                       lr=args.lr,
-                       weight_decay=args.weight_decay)
-criteon = nn.CrossEntropyLoss().cuda()
-
-if args.cuda:
-    model.cuda()
-    print('\nGPU is ON!')
+model = None
+optimizer = None
+criteon = None
 
 
 def loop_dataset(graphs, models, sample_idxes, optimizer=None, bsize=None, layers_info=None, node_information=None):
@@ -218,6 +196,33 @@ if __name__ == '__main__':
     over_test_f1 = []
     num = args.k_nums + 1
     for i in range(num):
+
+        # Model and optimizer
+        if args.use_embedding:
+            model = NMA(n_feat=args.features_num,
+                        n_hid=args.hidden,
+                        n_nums=args.max_nodes_per_hop,
+                        dropout=args.dropout,
+                        n_heads=args.nb_heads,
+                        n_gcn=args.n_gcn,
+                        alpha=args.alpha)
+        else:
+            model = NMA(n_feat=args.max_nodes_per_hop,
+                        n_hid=args.hidden,
+                        n_nums=args.max_nodes_per_hop,
+                        dropout=args.dropout,
+                        n_heads=args.nb_heads,
+                        n_gcn=args.n_gcn,
+                        alpha=args.alpha)
+        optimizer = optim.Adam(model.parameters(),
+                               lr=args.lr,
+                               weight_decay=args.weight_decay)
+        criteon = nn.CrossEntropyLoss().cuda()
+
+        if args.cuda:
+            model.cuda()
+            print('\nGPU is ON!')
+
         print()
         print('This is {}th fold valid'.format(i + 1))
         print()
@@ -236,10 +241,10 @@ if __name__ == '__main__':
     over_test_f1.append(np.mean(over_test_f1))
 
     if args.use_embedding:
-        filename = 'embedding_'
+        filename = 'NMA-N_'
     else:
-        filename = 'no_embedding_'
-    with open(os.path.join(args.file_dir, 'data/{}//results/{}results_res.txt'.format(args.data_name, filename)), 'a+')\
+        filename = 'NMA-I_'
+    with open(os.path.join(args.file_dir, 'data/{}//results/{}results.txt'.format(args.data_name, filename)), 'a+')\
             as f:
         f.write(str(args) + '\n')
         f.write('acc:' + ' '.join(map(str, over_test_acc)) + '\n')
