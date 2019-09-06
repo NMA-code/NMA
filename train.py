@@ -191,7 +191,7 @@ if __name__ == '__main__':
     over_test_pr_auc = []
     over_test_roc_auc = []
     over_test_f1 = []
-    num = args.k_nums + 1
+    num = args.k_nums
     for i in range(num):
 
         # Model and optimizer
