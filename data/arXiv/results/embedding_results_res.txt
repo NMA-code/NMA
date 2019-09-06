@@ -1,0 +1,13 @@
+Namespace(alpha=0.01, batch=100, cuda=True, data_name='arXiv-Netscience_Multiplex_Coauthorship', dropout=0.5, epochs=10000, features_num=128, file_dir='/home/ubuntu/PycharmProjects/attentionMultiplexGraphs_new', hidden=8, hop=1, k_nums=10, lr=0.0001, max_nodes_per_hop=25, max_train_num=100000, n_gcn=2, nb_heads=8, no_cuda=False, patience=10, seed=1, use_embedding=True, weight_decay=0.0005)
+acc:0.97845 0.96509 0.9431 0.94052 0.98578 0.98534 0.9875 0.98491 0.98793 0.97802 0.9736640000000001
+pr_auc:0.98769 0.98384 0.96637 0.96363 0.9936 0.99516 0.99599 0.99576 0.99569 0.99148 0.9869209999999999
+roc_auc:0.98658 0.97399 0.94763 0.94763 0.99016 0.99247 0.9938 0.99356 0.9946 0.98867 0.9809090000000001
+f1:0.97822 0.96408 0.94005 0.93704 0.98558 0.98515 0.98735 0.9848 0.9879 0.97768 0.972785
+Namespace(alpha=0.01, batch=100, cuda=True, data_name='arXiv-Netscience_Multiplex_Coauthorship', dropout=0.6, epochs=10000, features_num=32, file_dir='/home/ubuntu/PycharmProjects/attentionMultiplexGraphs_new', hidden=16, hop=1, k_nums=10, lr=0.0001, max_nodes_per_hop=25, max_train_num=20000, n_gcn=2, nb_heads=10, no_cuda=False, patience=15, seed=1, use_embedding=True, weight_decay=0.0005)
+acc:0.94825 0.93037 0.94468 0.93582 0.9825 0.98423 0.9806 0.98047 0.98707 0.95787 0.963186
+roc_auc:0.95978 0.94292 0.94931 0.94739 0.9876 0.99137 0.98926 0.99131 0.99362 0.97947 0.9732029999999998
+Namespace(alpha=0.01, batch=100, cuda=True, data_name='arXiv-Netscience_Multiplex_Coauthorship', dropout=0.6, epochs=10000, features_num=32, file_dir='/home/ubuntu/PycharmProjects/attentionMultiplexGraphs_new', hidden=16, hop=1, k_nums=5, lr=0.0001, max_nodes_per_hop=25, max_train_num=20000, n_gcn=2, nb_heads=10, no_cuda=False, patience=10, seed=1, use_embedding=True, weight_decay=0.0005)
+acc:0.95787 0.96604 0.95787 0.97584 0.93452 0.958428
+pr_auc:0.97709 0.98563 0.98613 0.9886 0.96197 0.979884
+roc_auc:0.9743 0.98038 0.97749 0.98452 0.94587 0.972512
+f1:0.95583 0.96521 0.95617 0.97539 0.93056 0.9566319999999999
