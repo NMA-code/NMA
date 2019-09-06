@@ -10,7 +10,7 @@ This is the source code for our paper '**Link Prediction with Multi-Stage Struct
 ### How to use
 The code is currently only tested on GPU, but you can run it on CPU. Of course, you have to put up with its inefficiencies.
 
-* **Demo**  
+* **Demo** 
 
      You can run `python train.py` to get the result of our demo. The Result store path is */data/arXiv/results/NMA-I_results.txt*.  
      
