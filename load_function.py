@@ -196,8 +196,8 @@ def node_label(subgraph, max_num):
     labels = 1 + np.minimum(dist_to_0, dist_to_1).astype(int) + d_over_2 * (d_over_2 + d_mod_2 - 1)
     labels = np.concatenate((np.array([1, 1]), labels))
     labels[np.isinf(labels)] = max_num
-    labels[labels > 1e6] = max_num  # set inf labels to 0
-    labels[labels < -1e6] = max_num  # set -inf labels to 0
+    labels[labels > 1e6] = max_num 
+    labels[labels < -1e6] = max_num 
     return labels
 
 
