@@ -26,7 +26,7 @@ parser.add_argument('--n_gcn', type=int, default=2, help='Number of gcn layers.'
 parser.add_argument('--dropout', type=float, default=0.5, help='Dropout rate (1 - keep probability).')
 parser.add_argument('--alpha', type=float, default=0.01, help='Alpha for the leaky_relu.')
 parser.add_argument('--batch', type=float, default=100, help='batch size.')
-parser.add_argument('--features_num', type=int, default=32, help='batch size.')
+parser.add_argument('--features_num', type=int, default=128, help='batch size.')
 parser.add_argument('--hop', default=1, type=int, help='enclosing subgraph hop number, options: 1, 2,..., ')
 parser.add_argument('--k_nums', type=int, default=5, help='k numbers of K-fold cross validation.')
 parser.add_argument('--use_embedding', type=bool, default=False, help='whether to use node2vec node embeddings.')
